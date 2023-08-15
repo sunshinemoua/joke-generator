@@ -1,0 +1,54 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1 {
+  margin: 0;
+}
+.card {
+  margin: 2rem;
+  padding: 1rem;
+}
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+button {
+  margin: 0.5rem;
+}
+
+@media (max-width: 576px) {
+  .card,
+  .card-title,
+  .card-body {
+    font-size: 4vw;
+  }
+  .btn {
+    font-size: 0.875rem;
+    padding: 0.25rem 0.5rem 0.25rem;
+  }
+}
+
+@media (min-width: 700px) {
+  .card,
+  .card-title,
+  .card-body {
+    font-size: 1.5rem;
+  }
+}
